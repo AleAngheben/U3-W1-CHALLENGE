@@ -91,3 +91,26 @@ thirdUser.azzeraChiamate();
 console.log(
   `Totale chiamate dopo l'azzeramento: ${thirdUser.getNumeroChiamate()}`
 );
+
+//PER HTML
+const getSaldo = () => {
+  const saldo = document.getElementById("saldo") as HTMLSpanElement;
+  saldo.innerText = firstUser.numero404();
+};
+//RICARICA
+const ricaricaForm = document.getElementById(
+  "ricarica-form"
+) as HTMLFormElement;
+const ricarica = document.getElementById("valore-ricarica") as HTMLInputElement;
+
+const btnCharge = document.getElementById("charge-btn") as HTMLButtonElement;
+
+btnCharge.addEventListener("click", function () {
+  let valoreRicarica = parseFloat(ricarica.value);
+  firstUser.ricarica(valoreRicarica);
+  getSaldo();
+});
+
+window.onload = () => {
+  getSaldo();
+};

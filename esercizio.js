@@ -56,3 +56,20 @@ console.log("Saldo residuo thirdUser: ".concat(thirdUser.numero404()));
 console.log("Totale chiamate effettuate dall'utente: ".concat(thirdUser.getNumeroChiamate()));
 thirdUser.azzeraChiamate();
 console.log("Totale chiamate dopo l'azzeramento: ".concat(thirdUser.getNumeroChiamate()));
+//PER HTML
+var getSaldo = function () {
+    var saldo = document.getElementById("saldo");
+    saldo.innerText = firstUser.numero404();
+};
+//RICARICA
+var ricaricaForm = document.getElementById("ricarica-form");
+var ricarica = document.getElementById("valore-ricarica");
+var btnCharge = document.getElementById("charge-btn");
+btnCharge.addEventListener("click", function () {
+    var valoreRicarica = parseFloat(ricarica.value);
+    firstUser.ricarica(valoreRicarica);
+    getSaldo();
+});
+window.onload = function () {
+    getSaldo();
+};

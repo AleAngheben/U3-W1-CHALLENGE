@@ -1,0 +1,47 @@
+.smartphone {
+  width: 300px;
+  height: 550px;
+}
+
+#island {
+  width: 70px;
+  height: 20px;
+}
+
+#btn-footer {
+  width: 150px;
+}
+
+#spotify {
+  color: #1cd75e;
+}
+#mail {
+  color: #0f6cbd;
+}
+.fs-7 {
+  font-size: 2.3rem;
+}
+
+#smart-1 {
+  background: hsla(332, 53%, 82%, 1);
+
+  background: linear-gradient(
+    180deg,
+    hsla(332, 53%, 82%, 1) 0%,
+    hsla(176, 57%, 89%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(332, 53%, 82%, 1) 0%,
+    hsla(176, 57%, 89%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(332, 53%, 82%, 1) 0%,
+    hsla(176, 57%, 89%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e9b7ce", endColorstr="#d3f3f1", GradientType=1 );
+}
