@@ -17,12 +17,39 @@ body {
   width: 150px;
 }
 
+#google {
+  color: red;
+}
+
+#google-box {
+  background-color: white;
+  padding-inline: 10px;
+}
+
 #spotify {
   color: #1cd75e;
 }
-#mail {
-  color: #0f6cbd;
+#spotify-box {
+  background-color: black;
+  padding-inline: 10px;
 }
+
+#whatsapp {
+  color: white;
+}
+#whatsapp-box {
+  background-color: #1cd75e;
+  padding-inline: 10px;
+}
+#mail {
+  color: white;
+}
+
+#mail-box {
+  background-color: #0f6cbd;
+  padding-inline: 10px;
+}
+
 .fs-7 {
   font-size: 2.3rem;
 }

@@ -15,6 +15,13 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <h1 class="text-center fs-8 mt-5">IL MIO SMARTPHONE</h1>
@@ -65,21 +72,23 @@
         </div>
       </div>
 
-      <div class="d-flex justify-content-around mt-5">
-        <div>
+      <div
+        class="d-flex justify-content-around mt-4 bg-secondary-subtle rounded-4 p-2"
+      >
+        <div id="mail-box" class="rounded-3">
           <i id="mail" class="bi bi-envelope-fill fs-7"></i>
         </div>
-        <div>
-          <i class="bi bi-browser-chrome fs-7"></i>
+        <div id="google-box" class="d-flex align-items-center rounded-3">
+          <i id="google" class="fab fa-google fs-7"></i>
         </div>
-        <div>
+        <div id="spotify-box" class="rounded-3">
           <i id="spotify" class="bi bi-spotify fs-7"></i>
         </div>
-        <div>
-          <i id="spotify" class="bi bi-whatsapp fs-7"></i>
+        <div id="whatsapp-box" class="rounded-3">
+          <i id="whatsapp" class="bi bi-whatsapp fs-7"></i>
         </div>
       </div>
-      <div class="rounded-5" id="iphone-scroll"></div>
+      <div class="rounded-5 mt-1" id="iphone-scroll"></div>
     </div>
 
     <script
