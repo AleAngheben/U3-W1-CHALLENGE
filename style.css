@@ -7,8 +7,10 @@ body {
 }
 
 #island {
-  width: 70px;
-  height: 20px;
+  width: 80px;
+  height: 23px;
+  color: #1cd75e;
+  padding-left: 10px;
 }
 
 #btn-footer {
