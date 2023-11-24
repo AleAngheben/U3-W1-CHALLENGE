@@ -54,3 +54,10 @@ body {
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e9b7ce", endColorstr="#d3f3f1", GradientType=1 );
 }
+
+#iphone-scroll {
+  width: 180px;
+  height: 7px;
+  background-color: #c1bebe;
+  margin-inline: auto;
+}
