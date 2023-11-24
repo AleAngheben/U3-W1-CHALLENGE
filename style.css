@@ -3,7 +3,7 @@ body {
 }
 .smartphone {
   width: 300px;
-  height: 550px;
+  height: 600px;
 }
 
 #island {
@@ -87,4 +87,8 @@ body {
   height: 7px;
   background-color: #c1bebe;
   margin-inline: auto;
+}
+
+i {
+  cursor: pointer;
 }
